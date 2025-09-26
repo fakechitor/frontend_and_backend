@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    color: #000;
+}
+.section {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+}
+.section:last-child {
+    border-bottom: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo {
+    font-weight: bold;
+}
+.contact {
+    text-align: right;
+}
+.btn {
+    padding: 8px 16px;
+    border: 2px solid #000;
+    background: white;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.btn:hover {
+    background: #f0f0f0;
+}
+.btn-primary {
+    background: #007BFF;
+    color: white;
+    border-color: #007BFF;
+}
+.btn-primary:hover {
+    background: #0056b3;
+}
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.grid-5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+.image-placeholder {
+    width: 100%;
+    height: 150px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #999;
+    margin-bottom: 10px;
+}
+.slider {
+    margin: 15px 0;
+}
+.review {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+}
+.map-placeholder {
+    width: 100%;
+    height: 200px;
+    background: #eee;
+    border: 2px dashed #999;
+    margin-top: 10px;
+}
+.footer {
+    background: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+.form-group {
+    margin: 10px 0;
+}
+input, select {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.tab {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.tab.active {
+    background: #007BFF;
+    color: white;
+    border-color: #007BFF;
+}
+.timeline {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.timeline-item {
+    text-align: center;
+    margin: 0 20px;
+}
+.timeline-line {
+    height: 1px;
+    width: 100%;
+    background: #000;
+    position: relative;
+}
+.timeline-dot {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: -4px;
+    right: 0;
+}
